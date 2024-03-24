@@ -895,10 +895,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('➕ 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 ➕', url=f"http://t.me/{temp.U_NAME}?startgroup=true")
                 ],[
-                    InlineKeyboardButton("♻️ ⒼⓇⓄⓊⓅ ♻️", url="https://t.me/+n_rSdmDYfORlNzc1"),
-                    InlineKeyboardButton('⭕️𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻⭕️', url='https://t.me/tvseriezzz_updates')
+                    InlineKeyboardButton("♻️ ⒼⓇⓄⓊⓅ ♻️", url=f"https://t.me/+n_rSdmDYfORlNzc1"),
+                    InlineKeyboardButton('⭕️𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻⭕️', url=f'https://t.me/tvseriezzz_updates')
                 ],[
-                    InlineKeyboardButton("♻️ ⒼⓇⓄⓊⓅ 2 ♻️", url="https://t.me/+qhgyFPGMdgNmMjdl"),
+                    InlineKeyboardButton("♻️ ⒼⓇⓄⓊⓅ 2 ♻️", url=f"https://t.me/+qhgyFPGMdgNmMjdl"),
                     InlineKeyboardButton("🔥 Dev 🔥", callback_data='owner_info')
                 ],[
                     InlineKeyboardButton('ℹ️ Help', callback_data='help'),
