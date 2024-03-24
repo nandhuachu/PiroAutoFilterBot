@@ -6,8 +6,8 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /app
-WORKDIR /app
+WORKDIR /PiroAutoFilterBot
 
 COPY . .
-CMD ["python", "bot.py"]
+
+CMD ["python3", "bot.py"]
